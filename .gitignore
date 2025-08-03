@@ -1,0 +1,98 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and debugging
+*.log
+*.out
+*.err
+logs/
+debug.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb~    # autosave backups
+*.nbconvert.ipynb
+
+# 📦 Python package management
+*.lock
+poetry.lock
+Pipfile.lock
+poetry.toml
+
+# 🧪 Testing
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+noxfile_*.*
+.cache/
+pytest_cache/
+.pytest_cache/
+hypothesis/
+
+# 📄 Environment/config secrets
+.env
+.env.*
+*.env
+*.secret
+secrets.*
+config.json
+openai_key.txt
+*.pem
+*.key
+
+# 🧠 LLM-specific
+# Cache directories for model providers
+.cache/
+.huggingface/
+transformers_cache/
+tokenizers/
+inference_results/
+langchain_logs/
+
+# DVC or other model/data versioning tools
+.dvc/
+*.dvc
+dvc.lock
+
+# Local data / output
+data/
+output/
+results/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
